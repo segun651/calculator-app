@@ -85,9 +85,9 @@
                     
                   }
              }
-     @media(max-width:500px) {
+
+              @media(max-width:500px) {
                  .box {
                    width:90vw;
                  }
               }
-
