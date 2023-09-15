@@ -81,7 +81,7 @@
 
     } 
   window.onload = () => {
-   screen.orientation.lock('portrait')
+   screen.orientation.unlock("portrait")
       
 }
     
