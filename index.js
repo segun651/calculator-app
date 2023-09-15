@@ -80,6 +80,10 @@
 
 
     } 
+  window.onload = () => {
+   screen.orientation.lock('landscape')
+      
+}
     
    
 
