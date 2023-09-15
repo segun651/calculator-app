@@ -79,7 +79,8 @@
                     
                }
                  input {
-                   height: 70px;
+                   height: 50px;
+                      font-size:15px;
                  }
                   #colorbtn {
                      height: 3.5rem;
