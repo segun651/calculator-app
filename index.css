@@ -7,8 +7,8 @@
 
 
       #colorbtn {
-          float: right;
-          height: 10%;
+         float: right;
+          height: 10vh;
           padding: 10px 20px;
            border-radius: 20px;
             width:30%;
@@ -19,14 +19,18 @@
              text-align: center;
         color: white;
       }
-
+  .lightbtn {
+    display: flex;
+    justify-content: flex-end;
+  }
 
       .Calculator {
+        
      position: fixed;
       top:50%;
       left: 50%;
       transform: translate(-50%,-50%);
-      overflow:visible;
+      overflow: visible;
 
       }
         .box {
@@ -74,22 +78,31 @@
           
 
              @media(max-height:580px) {
+            
+
                .box {
-                 height: auto;
-                    
+                position: absolute;
+              
+                top:50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                overflow-y: auto;
                }
                  input {
-                   height: 50px;
-                      font-size:15px;
+                   height: 70px;
                  }
                   #colorbtn {
                      height: 3.5rem;
                     
                   }
+                  
              }
 
               @media(max-width:500px) {
                  .box {
                    width:90vw;
                  }
+                
               }
+
+             
