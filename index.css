@@ -93,7 +93,7 @@
                  }
                   #colorbtn {
                      height: 3.5rem;
-                    width:50%;
+               
                   }
                   
              }
@@ -102,6 +102,14 @@
                  .box {
                    width:90vw;
                  }
+                     #colorbtn {
+                     
+                    width:50%;
+                  }
+                    .btngrid {
+                           grid-template-columns: auto auto auto ;
+                         
+                    }
                 
               }
 
